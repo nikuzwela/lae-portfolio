@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar ul li a{
+list-style: none;
+text-decoration: none;
+color: white;
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar ul{
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   
+}
+.content{
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+    margin-right:20px ;
+   
+}
+.navbar{
+    box-shadow: 0 0 0 3px; 
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    background-color: rgb(7, 5, 29);
+    color:white;
+}
+.navbar ul li :hover{
+    color:rgb(238, 198, 18) ;
+    
+}
+.logo{
+    margin-top: 10px;
+    font-size: 40px;  
+    margin-left: 20px;
+    font-weight: bolder;
+    font-style: italic;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(238, 198, 18);
+}
+
+.hello{
+    color: rgb(238, 198, 18); 
+}
+.lae{
+    font-size: 70px;
+    font-family: tahoma;
+    font-weight: bolder;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background-image: url(https://images.pexels.com/photos/3849558/pexels-photo-3849558.jpeg?auto=compress&cs=tinysrgb&w=600);
+     -webkit-background-clip: text;
+     background-position: 0  0;
+     animation: back 50s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px  0;  
+    }
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: white;
+}
+.photo img{
+    height: 430px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+.all{
+  background-color: rgb(7, 5, 29);
+  padding-bottom: 15px;  
+}
+.home{
+    margin-left: 200px;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 70px;
+}
+.follow a{
+    
+    text-decoration: none;
+    color:rgb(7, 5, 29) ;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.follow{
+    background-color: rgb(238, 198, 18) ;
+    border-radius: 50px;
+    width: 150px;
+    padding: 10px;
+
+}
+.follow:hover{
+    background-color: #333;
+
+}
+.follow a:hover{
+    color: white;
+}
+.le{
+    color:rgb(238, 198, 18) ;
+}
+button{
+    margin-left: 200px;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    background-color: rgb(20, 20, 31);
+    text-align: center;
+}
+.plan{
+    margin-left: 60px;
+    color: white;
+   
+}
+.this{
+    display: flex;
+}
+.bx{
+   
+   border-radius: 20px;
+   margin-left: 200px;
+  position: relative;
+  border: 1px skyblue;  
+  
+}
+input{
+    height: 30px;
+    float: right;
+}
+.aboutme{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;padding-bottom: 40px;
+}
+.aboutcont li{
+list-style: none;
+color: white;
+}
+.aboutcont p{
+    color: white;   
+}
+form{
+    float: left; 
+}
+strong{
+    color: rgb(238, 198, 18);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.allinfo{
+    display: flex;
+    justify-content: space-between;
+   margin-top: 40px;
+}
+.allinfo li{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+
+}
+.info{
+    color: white;
+    margin-right: 100px;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    .bt1 input{
+        width: 300px;
+        height: 40px;
+        font-style: italic;
+        background-color: #333;
+        border: none; }
+    
+    
+    .bt2 input{
+        width: 300px;
+        height: 40px;  
+        font-style: italic;
+        background-color: #333;
+        border: none;
+    }
+    .bt3 input{
+        width: 300px;
+        height: 40px;
+        font-style: italic;
+        background-color: #333;
+        border: none;
+    }
+    .bt4 textarea{
+        width: 300px;
+        height: 100px;
+        font-style: italic;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        background-color: #333;
+        border: none;
+    }
+    .just{
+        margin-left: 100px;
+    }
+    h2{
+        color: rgb(238, 198, 18) ;
+        text-align: center;
+    }
+   
+    .plan dt{
+        color: rgb(238, 198, 18) ;
+        font-size: larger;
+    }
+   .plan h3{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   .plan dd{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+.o{
+    font-size: 15px;
+}
+.see{
+    
+    padding-bottom: 110px;
+}
+h4{
+    color: white;
+    font-size: 20px;
+}
+.image2 img{
+    height: 350px;
+}
+.aboutcont{
+    margin-right: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.aboutb{
+    margin-left: 100px;
+}
+.my{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: white;
+}
+.skl{
+    color: #333;
+    width: 500px;
+    margin: 60px auto;
+    padding: 20px;
+    box-shadow: 2px 1px 0px 3px;
+    
+}
+.skl li{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+.bar{
+    background-color: #333;
+    display: block;
+    height: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    overflow: hidden;
+    box-shadow: 1px, 3px rgba(0,0,00.12),0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 20px; 
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1); 
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height: 10px;
+    float: left;
+    background-color: rgb(238, 198, 18);   
+}
+
+.MatLab{
+    width:45%;
+    animation: MatLab 3s;
+}
+.C {
+    width:45%;
+    animation: C 3s;  
+}
+.Ms{
+    width:78%;
+    animation: Ms 3s;   
+}
+.Team{
+    width:75%;
+    animation: Team 3s; 
+}
+.Time{
+    width:70%;
+    animation:Time 3s; 
+}
+.man{
+    width:50%;
+    animation:man 3s; 
+}
+.sk{
+    margin-left: 100px;
+    margin-top: 60px;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@keyframes MatLab{
+    0%{
+        width: 0%;
+    } 
+    100%{
+        width: 45%;
+    }}
+@keyframes C{
+      0%{
+            width: 0%;
+        } 
+        100%{
+            width: 45%;
+        }}
+ @keyframes Ms{
+            0%{
+                width: 0%;
+            } 
+            100%{
+                width: 78%;
+            }}
+     @keyframes Team{
+                0%{
+                    width: 0%;
+                } 
+                100%{
+                    width: 75%;
+                }}
+ @keyframes Time{
+                    0%{
+                        width: 0%;
+                    } 
+                    100%{
+                        width: 70%;
+                    }}
+ @keyframes man{
+                        0%{
+                            width: 0%;
+                        } 
+                        100%{
+                            width: 65%;
+                        }}
+
+.info dt{
+    color:rgb(238, 198, 18) ;
+    margin-right: 100px;
+}
+.image3 img{
+    height: 400px;
+}
+.skl p{
+    color:rgb(238, 198, 18) ; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;font-weight: bold;
+}
+button{
+    background-color:rgb(238, 198, 18)  ;
+    width: 150px;
+    height: 40px;
+   text-align: center;
+   margin-left: 80px;
+   color: rgb(20, 20, 31) ;font-size: 15px;
+   margin-bottom: 70px;
+   border: none;font-weight: bold;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+    background-color: #333;
+    color: white;
+}
+.this{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    width: 220px;
+    margin-left: 130px;
+   position: relative;
+   border-radius: 20px;
+   padding-left: 15px;
+  
+}
+.is{
+    display: flex;
+    justify-content: space-between;
+     margin-bottom: 10px;
+}
+.ic{
+    font-size: 25px;
+    color: white;
+    display: flex;
+    gap: 30px;
+    float: right;
+    padding-left: 40px;
+}
+.h{
+    display: flex;justify-content: space-between;
+}
+h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
