@@ -380,15 +380,14 @@ button:hover{
     background-color: #333;
     color: white;
 }
-.this{
+.this i{
     display: flex;
     justify-content: space-between;
-    background-color: #333;
     width: 220px;
-    margin-left: 130px;
+    margin-left: 80px;
    position: relative;
    border-radius: 20px;
-   padding-left: 15px;
+   height: 30px;
   
 }
 .is{
@@ -396,13 +395,16 @@ button:hover{
     justify-content: space-between;
      margin-bottom: 10px;
 }
-.ic{
+.ic a i {
     font-size: 25px;
     color: white;
-    display: flex;
-    gap: 30px;
-    float: right;
-    padding-left: 40px;
+    float: right; 
+}
+.ic {
+    display:flex;float: left;
+}
+.ic a{
+    margin-left: -150px;
 }
 .h{
     display: flex;justify-content: space-between;
