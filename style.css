@@ -397,11 +397,14 @@ button:hover{
 }
 .ic a i {
     font-size: 25px;
-    color: white;
     float: right; 
 }
 .ic {
     display:flex;float: left;
+}
+.ic a i:hover{
+    transform: translateY(-8px);
+    color:rgb(238, 198, 18)   
 }
 .ic a{
     margin-left: -150px;
